@@ -40,4 +40,23 @@ public boolean validaNombre(){
 if(nombre != null){return true;}
 else {return false;}
 }
+
+
+public static boolean validarDigitoVerificador(char dv) {
+        // Comprobamos si es un dígito del 0 al 9 o la letra 'k' (mayúscula o minúscula)
+        return (dv >= '0' && dv <= '9') || dv == 'k' || dv == 'K';
+    }
+
+public boolean validarDigito(char dv) {
+if (dv>='0' && dv <='9' || dv =='k' || dv == 'K')
+    return true;
+else{
+}return false;
+}
+
+public boolean ValidaNombre(){
+if (nombre != null && !nombre.isEmpty()){
+    return true;}
+else{}return false;
+}
 }

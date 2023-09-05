@@ -76,6 +76,7 @@ public class Tarjeta {
     }
 
     public void setVigencia(String vigencia) {
+        
         this.vigencia = vigencia;
     }
 
